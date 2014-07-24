@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	
+	<meta title="Snake" package="com.example.snake" version="1.0.0" company="Company Name" />
+	<app main="Main" path="Export" file="Snake" />
+	
+	<source path="Source" />
+	
+	<haxelib name="openfl" />
+	<haxelib name="actuate" />
+	
+	<assets path="Assets" rename="assets" exclude="openfl.svg" />
+	<assets path="Assets/images" rename="images" include="*" exclude="icon.svg" />
+	<assets path="Assets/fonts" rename="fonts" include="*.ttf" />
+	
+	<icon path="Assets/openfl.svg" />
+	
+</project>
